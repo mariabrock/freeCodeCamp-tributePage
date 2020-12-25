@@ -1,0 +1,50 @@
+body {
+  font-family: 'JetBrains Mono', monospace;
+  text-align: center;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+section {
+  display: block;
+}
+
+h1 {
+  display: block;
+  font-size: 3em;
+}
+
+h3 {
+  text-align: center;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+  font-size: .75em;
+}
+
+#tribute-info {
+  text-align: left;
+}
+
+li {
+  margin: 15px 0;
+}
+
+a:hover {
+  color:gold;
+}
