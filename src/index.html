@@ -7,13 +7,19 @@
       <title>FreeCodeCamp Responsive Web Project: Tribute Page</title>
     </head>
       <body>
+        <!-- User Story #1: My tribute page should have an element with a corresponding id="main", which contains all other elements. -->
         <main class="container" id="main">
+          <!-- User Story #2: I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page  -->
           <h1 id="title">Rear Admiral Grace Murray Hopper</h1>
           <h3>A programming pioneer known as "Grandma COBOL".</h3>
           <div id="img-div">
-            <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/3/37/Grace_Hopper_and_UNIVAC.jpg" />
+            <!-- User Story #4: Within the img-div element, I should see an img element with a corresponding id="image" -->
+            <img id="image" src="https://am24.akamaized.net/tms/cnt/uploads/2018/02/Grace-Hopper-UNIVAC-1200x800.jpg" />
+            <!-- User Story #5: Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div. -->
             <p id="img-caption">Hopper pictured alongside colleagues at the UNIVAC I console, c. 1960.</p>
           </div>
+
+          <!-- User Story #6: I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page. -->
 
           <section id="tribute-info">
             <h3>A timeline of Grace Hopper's Life</h3>
@@ -37,11 +43,19 @@
               <li><strong>2016</strong> - Hopper posthumously honored with the Presidential Medal of Freedom by President Barack Obama</li>
             </ul>
 
+            <img id="image" src="https://media2.govtech.com/images/Grace_Hopper_CV_2017-02-14.jpg" />
+            
             <h3>
               Read more about Grace's achievements in this
 
+              <!-- User Story #7: I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. -->
+
               <a id="tribute-link" href="https://president.yale.edu/biography-grace-murray-hopper" target="_blank">Yale University Bio article</a>.
             </h3>
+
+            <!-- User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size. -->
+
+            <!-- User Story #9: The img element should be centered within its parent element. -->
 
           </section>
 

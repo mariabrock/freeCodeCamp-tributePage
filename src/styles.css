@@ -1,6 +1,7 @@
 body {
   font-family: 'JetBrains Mono', monospace;
   text-align: center;
+  background-color:  #eee;
 }
 
 #main {
@@ -23,15 +24,16 @@ section {
 
 h1 {
   display: block;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 h3 {
   text-align: center;
+  color: firebrick;
 }
 
 #img-div {
-  background: white;
+  background: goldenrod;
   padding: 10px;
   margin: 0;
   font-size: .75em;
